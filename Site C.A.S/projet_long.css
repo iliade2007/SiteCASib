@@ -1,0 +1,83 @@
+body {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.952);
+}
+
+#logo_ib {
+    position: absolute;
+    top: 19px;
+    left: 30px;
+}
+
+h1 {
+    font-size: 41.6px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+#profil {
+    position: absolute;
+    top: 1300px;
+    left: 490px;
+}
+
+
+/* HEADER */
+
+.main-head {
+    background-color: #147e91;
+    color: #ffff;
+}
+
+nav {
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 28px;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 560px;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo {
+    flex: 1 1 500px;
+}
+
+.sub-experience {
+    display: none;
+    position: absolute;
+}
+
+header li a:hover {
+    background-color: rgb(31, 157, 241);
+    color: #fff;
+}
+
+header li:hover .sub-experience {
+    display: block;
+}
+
+header li {
+    position: relative;
+}
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
